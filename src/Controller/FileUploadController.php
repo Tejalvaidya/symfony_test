@@ -163,8 +163,8 @@ class FileUploadController extends AbstractController
    private function sendUserNotification(MailerInterface $mailer, string $email, string $name)
     {
         $emailMessage = (new Email())
-            ->from('tejalkanade@gmail.com')
-            ->to('tejalkanade@gmail.com')
+            ->from('youremail@gmail.com')
+            ->to('youremail@gmail.com')
             ->subject('Welcome to Our Platform')
             ->text("Hello $name,\n\nYour account has been successfully created.\n\nThank you!");
 

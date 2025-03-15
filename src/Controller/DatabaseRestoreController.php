@@ -17,7 +17,7 @@ class DatabaseRestoreController extends AbstractController
     public function restoreDatabase(EntityManagerInterface $entityManager): JsonResponse
     {
         // Database credentials
-        $dbHost = '127.0.0.1';  // Change to your database host
+        $dbHost = '';  // Change to your database host
         $dbUser = 'root';       // Change to your database username
         $dbPassword = '';       // Change to your database password
         $dbName = 'symfony_test'; // Change to your database name
