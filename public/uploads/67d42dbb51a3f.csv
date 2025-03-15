@@ -1,0 +1,5 @@
+name,email,username,address,role
+admin,admin@gmail.com,test,usa,admin
+test,test@gmail.com,test,nashik,user
+test_1,test_1@gmail.com,test_1,nsk,admin
+user1,user1@gmail.com,user1,nsk,user
